@@ -18,7 +18,7 @@ To install Aquarium:
 	return dc.require("scripts/aquarium/aquarium-view.jsx")
 ```
 ~~~
-6. Install the files Enjoy!
+6. Enjoy!
 
 ## Other Notes
 - This code is fully open source. Use however you see fit. Credit is nice but not necessary.
