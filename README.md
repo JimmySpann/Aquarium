@@ -11,7 +11,7 @@ To install Aquarium:
 1. Ensure you have [obsidian](https://obsidian.md/) installed along with the [datacore](https://github.com/blacksmithgu/datacore) plugin
 2. Download the zip file (Click code button -> download zip)
 3. Create a folder named "scripts" in your vault and a "aquarium" folder within it
-4. Extract the file contents of "aquarium.zip" into the `scipts/aquarium/` directory
+4. Extract the file contents of "aquarium.zip" into the `scripts/aquarium/` directory
 5. Place the following code in the obsidian note you wish to have the Aquarium:
 ~~~
 ```datacorejsx
