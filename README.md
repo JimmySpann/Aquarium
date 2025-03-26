@@ -24,3 +24,4 @@ To install Aquarium:
 - This code is fully open source. Use however you see fit. Credit is nice but not necessary.
 - I will likely update this into something fully usable once time is found. Got big ideas and see this as a stepping stone.
 - Code contributions are encouraged and greatly appreciated.
+- Code critique is also encouraged. There's always a more to learn and a better way of doing things. I appreciate those who help me find them.
