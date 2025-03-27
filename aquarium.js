@@ -279,7 +279,7 @@ return class Tank {
     } 
   
     /**
-     * Handles the resize event, updating the tank dimensions.
+     * Handles the resize event. Updating the tank dimensions the fish behavior uses. Keeping them within the tank
      */
     handleResize = () => {
       const { width, height } = this.element.getBoundingClientRect();
