@@ -1,4 +1,11 @@
+async function requireMediaFile(path) {
+  const mediaFile = await app.vault.getFileByPath(path);
+  return app.vault.getResourcePath(mediaFile);
+}
+
 const Animation = await dc.require('scripts/aquarium/animation.js');
+const backgroundImage = await requireMediaFile('scripts/aquarium/img/back.png');
+const fishImage = await requireMediaFile('scripts/aquarium/img/fishprismo.png');
 
 /**
    * Class representing a fish within a tank.
@@ -13,6 +20,7 @@ class Fish {
   constructor ({ settings, tank }) {
     this.tank = tank;
     this.element = this.createFishElement(settings);
+    this.element.style.backgroundImage = `url(${fishImage})`;
 
     this.name = settings.name;
 
@@ -266,6 +274,7 @@ return class Tank {
      */
     constructor ({ tankRef, fishes }) {
       this.element = tankRef;
+      this.element.style.backgroundImage = `url(${backgroundImage})`;
       this.handleResize();
 
       this.fishes = [];
